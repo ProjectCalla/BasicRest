@@ -18,7 +18,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/hello")
 public class Hello {
   @GET
-  @Produces(MediaType.TEXT_HTML)
+  @Produces({MediaType.TEXT_HTML})
   public String processAllGet() {
     return "[\n{\n \t 'greeting' : 'hello' \n}\n] ";
   }

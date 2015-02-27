@@ -5,8 +5,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("/hai")
-public class Hai {
+@Path("/cal")
+public class Calendar {
 	  @GET
 	  @Produces(MediaType.TEXT_HTML)
 	  public String processAllGet() {
